@@ -1,0 +1,124 @@
+body {
+  background-color: var(--main-color);
+  color: white;
+}
+.landing-btn {
+  display: block;
+  width: fit-content;
+  border-radius: 100px 0 100px 100px;
+  background-color: var(--bg-color);
+  color: black;
+  padding: 20px 40px;
+  -webkit-border-radius: 100px 0 100px 100px;
+  -moz-border-radius: 100px 0 100px 100px;
+  -ms-border-radius: 100px 0 100px 100px;
+  -o-border-radius: 100px 0 100px 100px;
+  margin: 20px 0;
+}
+main {
+  padding-top: 120px;
+}
+.text {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  padding: 50px 0;
+}
+.text h1 {
+  font-size: 45px;
+  margin: 0;
+}
+.text p {
+  font-size: 22px;
+  line-height: 35px;
+  padding-bottom: 10px;
+}
+.images {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  padding: 50px 0;
+  background-image: linear-gradient(
+    to bottom,
+    var(--main-color) 0%,
+    var(--main-color) 50%,
+    white 50%,
+    white 100%
+  );
+}
+.images img {
+  width: 20%;
+}
+section.info {
+  background-color: white;
+  color: #000000;
+}
+section.info h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  padding-bottom: 50px;
+}
+.row .icon {
+  width: 60px;
+  height: 60px;
+  color: var(--main-color);
+  border-radius: 50%;
+  background-color: #9b27b07d;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row .box:nth-child(1) .icon {
+  background-color: #224c9b88;
+  color: #224c9b;
+}
+.row .box:nth-child(2) .icon {
+  background-color: #d7527e79;
+  color: #d7527f;
+}
+.row .box:nth-child(3) .icon {
+  background-color: #3bada979;
+  color: #3bada9;
+}
+@media (max-width: 767px) {
+  .text {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+  }
+  .text .start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .text:last-child {
+    padding: 0;
+  }
+  .images img {
+    width: 30%;
+  }
+  .text h1 {
+    font-size: 30px;
+  }
+  .text p {
+    font-size: 18px;
+  }
+  .row .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
