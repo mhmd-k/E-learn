@@ -38,6 +38,6 @@ function login() {
     passMsg.innerText = "incorrect password";
     return;
   }
-  localStorage.setItem("user", JSON.stringify({ email, pass }));
+  localStorage.setItem("user", JSON.stringify({ ...user, email, pass }));
   location.href = "../pages/profile.html";
 }

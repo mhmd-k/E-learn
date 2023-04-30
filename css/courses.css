@@ -1,11 +1,13 @@
 body {
   background-color: var(--bg-color);
 }
+main {
+  padding: 120px 0;
+}
 main .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 30px;
-  padding-bottom: 50px;
 }
 .box {
   background-color: #f5f5f5;

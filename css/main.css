@@ -149,7 +149,8 @@ ul.mobile {
   background-color: var(--bg-color);
   width: 200px;
   right: 15px;
-  top: 77px;
+  top: 78px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 ul.mobile li {
   padding: 10px;
@@ -168,6 +169,7 @@ footer {
   color: black;
   padding: 20px 0;
   border-top: 1px solid gray;
+  background-color: var(--bg-color);
 }
 footer a {
   color: var(--main-color);

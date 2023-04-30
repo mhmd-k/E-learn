@@ -43,7 +43,7 @@ const courses = [
   },
 ];
 
-const contianer = document.querySelector("main .container");
+const container = document.querySelector("main .container");
 const searchInput = document.querySelector("input[name='search']");
 
 searchInput.addEventListener("input", () => {
@@ -75,7 +75,7 @@ function createCourseCard(course) {
     <p class="disc">${course.disc}</p>
     <p>${course.time} hours</p>
     `;
-  contianer.append(a);
+  container.append(a);
 }
 
 function search(str, value) {

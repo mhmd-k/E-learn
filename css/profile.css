@@ -1,0 +1,122 @@
+main {
+  padding-top: 120px;
+}
+h2 {
+  text-align: center;
+}
+main .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.col:last-of-type {
+  width: fit-content;
+  max-width: 300px;
+  margin: auto;
+}
+.col .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  position: relative;
+}
+.col .image img {
+  width: 200px;
+}
+.col .image button {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color: transparent;
+}
+.col .data {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.col .input {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.col .input input {
+  width: 200px;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #e8e8e8;
+  border: 2px solid white;
+}
+.col .input input.edit {
+  border-color: var(--main-color);
+  background-color: white;
+}
+#edit {
+  color: var(--main-color);
+  background-color: white;
+  padding: 5px;
+}
+#log-out {
+  padding: 10px;
+  background-color: #f44336;
+  color: white;
+  font-size: 15px;
+  border-radius: 3px;
+}
+.courses {
+  padding: 50px 0;
+}
+.courses .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.courses .box {
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  position: relative;
+}
+.courses .box i {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  color: rgb(17, 198, 89);
+  font-size: 35px;
+}
+.courses .box .image {
+  border: 1px solid grey;
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  overflow: hidden;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+}
+@media (max-width: 767px) {
+  main .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .courses .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

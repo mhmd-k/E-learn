@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/profile.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -49,7 +50,43 @@
         </ul>
       </div>
     </header>
-    <main></main>
+    <main>
+      <div class="container">
+        <div class="col">
+          <div class="image">
+            <img src="../images/profile.png" alt="" />
+            <button id="edit">
+              <i class="fa-regular fa-pen-to-square fa-lg"></i>
+            </button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="data">
+            <label for="name">Name:</label>
+            <div class="input">
+              <input type="text" id="name" name="name" readonly />
+              <button id="edit">
+                <i class="fa-regular fa-pen-to-square fa-lg"></i>
+              </button>
+            </div>
+          </div>
+          <div class="data">
+            <label for="email">Email:</label>
+            <div class="input">
+              <input type="email" id="email" name="email" readonly />
+              <button id="edit">
+                <i class="fa-regular fa-pen-to-square fa-lg"></i>
+              </button>
+            </div>
+          </div>
+          <div class="data"><button id="log-out">Log Out</button></div>
+        </div>
+      </div>
+    </main>
+    <section class="courses">
+      <h2>Finished Courses</h2>
+      <div class="container"></div>
+    </section>
     <footer>
       Built By
       <a href="https://mhmd-k.github.io/portfolio/" target="_blank"
@@ -57,5 +94,6 @@
       >
     </footer>
     <script src="../js/main.js"></script>
+    <script src="../js/profile.js"></script>
   </body>
 </html>

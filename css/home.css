@@ -15,6 +15,10 @@ body {
   -o-border-radius: 100px 0 100px 100px;
   margin: 20px 0;
 }
+.info .landing-btn {
+  background-color: var(--main-color);
+  color: white;
+}
 main {
   padding-top: 120px;
 }
