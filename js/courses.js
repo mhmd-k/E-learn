@@ -63,7 +63,7 @@ function createCourseCard(course) {
   let a = document.createElement("a");
   a.href = "../pages/log-in.html";
   a.className = "box";
-  a.setAttribute("data-course", course.data);
+  a.setAttribute("data-course", course.id);
   a.innerHTML = `
     <div
         class="image"
@@ -80,6 +80,8 @@ function search(str, value) {
   return str.toLowerCase().split(" ").join("").search(value) !== -1;
 }
 
+const links = document.querySelectorAll("a.box");
+
 //if the user is loged in
 
 const user = JSON.parse(localStorage.getItem("user")) || null;
@@ -93,4 +95,11 @@ if (user) {
     <a class="header-btn" href=".profile.html">
         <i class="fa-solid fa-user fa-lg"></i
     ></a>`;
+  links.forEach((link) => {
+    link.addEventListener("click", (e) => {
+      e.preventDefault();
+      localStorage.setItem("course", link.getAttribute("data-course"));
+      location.href = "../pages/course.html";
+    });
+  });
 }

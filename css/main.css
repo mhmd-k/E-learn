@@ -156,7 +156,7 @@ ul.mobile {
 ul.mobile li a {
   width: 100%;
   padding: 20px 0;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 ul.mobile li.mobile {
@@ -166,6 +166,7 @@ ul.mobile li.mobile {
 }
 ul.mobile li.mobile a {
   color: var(--main-color);
+  border: none;
 }
 footer {
   text-align: center;
