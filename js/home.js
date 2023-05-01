@@ -14,4 +14,19 @@ if (user) {
     e.href = "../pages/courses.html";
   });
   document.querySelector("section.info").remove();
+  document.querySelector("main .container .text").innerHTML = `
+  <h1>Welcome back ${user.username}</h1>
+  <div class="start">
+    <p style="line-height: 25px;"> Jump back in:</p>
+    <div class="course">
+      <div class="image">
+        <img src="../images/java.jpg" alt="course image"/>
+      </div>
+      <div>
+        <p style="text-align: start; margin: 0; line-height: 25px;">Multi Threading in java, intro</p>
+        <a href="../pages/courses.html" class="landing-btn">Continue</a>
+      </div>
+    </div>
+  </div>
+  `;
 }

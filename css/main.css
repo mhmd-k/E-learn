@@ -73,7 +73,7 @@ input:focus {
 }
 /* header */
 header {
-  padding: 20px 0;
+  padding: 15px 0;
   position: fixed;
   left: 0;
   top: 0;
@@ -148,12 +148,15 @@ ul.mobile {
   position: absolute;
   background-color: var(--bg-color);
   width: 200px;
-  right: 15px;
-  top: 78px;
+  right: 5%;
+  top: 69px;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  gap: 0;
 }
-ul.mobile li {
-  padding: 10px;
+ul.mobile li a {
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid black;
   text-align: center;
 }
 ul.mobile li.mobile {

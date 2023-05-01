@@ -45,7 +45,6 @@ form .data input {
 form .data input:focus {
   outline: none;
   border-color: #3498db;
-  border-bottom-width: 2px;
 }
 form .forgot-pass {
   margin-top: -8px;
@@ -107,10 +106,55 @@ form .signup-link a:hover {
     align-items: center;
   }
 }
+@keyframes ldio-h7qmz13llzu {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.ldio-h7qmz13llzu div {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 5px solid #ffffff;
+  border-top-color: transparent;
+  border-radius: 50%;
+}
+.ldio-h7qmz13llzu div {
+  animation: ldio-h7qmz13llzu 1s linear infinite;
+  top: 50px;
+  left: 50px;
+}
+.loadingio-spinner-rolling-fvxxpi27vlr {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  overflow: hidden;
+  background: none;
+}
+.ldio-h7qmz13llzu {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(0.5);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+}
+.ldio-h7qmz13llzu div {
+  box-sizing: content-box;
+}
 /* sign up page */
 .form.sign-up form .data {
   margin: 20px 0;
 }
 .form.sign-up form .data label {
   font-size: 15px;
+}
+.not-valid {
+  border: 2px solid rgb(217, 46, 24) !important;
+}
+.sign-up .msg {
+  font-size: 12px;
 }

@@ -48,10 +48,8 @@ const searchInput = document.querySelector("input[name='search']");
 
 searchInput.addEventListener("input", () => {
   const value = searchInput.value.toLowerCase().split(" ").join("");
-  contianer.innerHTML = "";
-  const filteredCourses = courses.filter(
-    (e) => search(e.title, value) || search(e.disc, value)
-  );
+  container.innerHTML = "";
+  const filteredCourses = courses.filter((e) => search(e.title, value));
   filteredCourses.forEach((course) => {
     createCourseCard(course);
   });

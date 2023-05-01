@@ -26,22 +26,29 @@
       <main>
         <div class="form sign-up">
           <h2>Create Account</h2>
-          <form action="#">
+          <form>
             <div class="data">
               <label>Username:</label>
               <input type="text" name="username" required />
+              <span class="msg"></span>
             </div>
             <div class="data">
               <label>Email:</label>
-              <input type="text" name="email" required />
+              <input type="text" name="email" required /><span
+                class="msg"
+              ></span>
             </div>
             <div class="data">
               <label>Password:</label>
-              <input type="password" name="pass" required />
+              <input type="password" name="pass" required /><span
+                class="msg"
+              ></span>
             </div>
             <div class="data">
               <label>Confirm Password:</label>
-              <input type="password" name="pass" required />
+              <input type="password" name="confirmPass" required /><span
+                class="msg"
+              ></span>
             </div>
             <div class="btn">
               <button type="submit">Sign Up</button>
@@ -50,6 +57,6 @@
         </div>
       </main>
     </main>
-    <script src="./js/main.js"></script>
+    <script src="../js/signup.js"></script>
   </body>
 </html>

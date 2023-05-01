@@ -93,6 +93,22 @@ section.info h2 {
   background-color: #3bada979;
   color: #3bada9;
 }
+.course {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.course .image {
+  width: 100%;
+}
+.course .image img {
+  width: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
 @media (max-width: 767px) {
   .text {
     grid-template-columns: 1fr;

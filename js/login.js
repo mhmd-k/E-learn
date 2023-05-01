@@ -13,7 +13,10 @@ const user = {
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-  submiBtn.innerText = "Logging in...";
+  submiBtn.innerHTML = `
+  <div class="loadingio-spinner-rolling-fvxxpi27vlr"><div class="ldio-h7qmz13llzu">
+    <div></div>
+  </div></div>`;
   setTimeout(() => {
     submiBtn.innerText = "log in";
     login();

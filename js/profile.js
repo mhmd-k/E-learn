@@ -17,7 +17,7 @@ if (user) {
       <div class="col">
           <div class="image">
             <img src="../images/profile.png" alt="" />
-            <button id="edit">
+            <button id="edit" class="edit-image">
               <i class="fa-regular fa-pen-to-square fa-lg"></i>
             </button>
           </div>
@@ -167,4 +167,16 @@ const logOutBtn = document.querySelector("#log-out");
 logOutBtn.addEventListener("click", () => {
   localStorage.clear();
   location.href = "../index.html";
+});
+
+const editImageBtn = document.querySelector(".edit-image");
+const uploadImageDiv = document.querySelector(".upload-image");
+const closeBtn = uploadImageDiv.querySelector("#close");
+
+editImageBtn.addEventListener("click", () => {
+  uploadImageDiv.style.display = "flex";
+});
+
+closeBtn.addEventListener("click", () => {
+  uploadImageDiv.style.display = "none";
 });

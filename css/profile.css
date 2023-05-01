@@ -79,8 +79,9 @@ main .container {
 }
 .courses .container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
   gap: 30px;
+  justify-content: center;
 }
 .courses .box {
   border: 1px solid grey;
@@ -119,4 +120,34 @@ main .container {
   .courses .container {
     grid-template-columns: repeat(1, 1fr);
   }
+}
+.upload-image {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.358);
+  display: none;
+  z-index: 5;
+}
+.upload-image #close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #f44336;
+  background-color: transparent;
 }
