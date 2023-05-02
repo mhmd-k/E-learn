@@ -36,6 +36,14 @@ button {
   border: none;
   cursor: pointer;
 }
+.text-muted {
+  color: gray;
+  font-size: 12px;
+}
+.text-muted span {
+  color: var(--main-color);
+  font-weight: bold;
+}
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -187,4 +195,48 @@ footer a {
   #menu {
     display: block;
   }
+}
+/* loading animation */
+@keyframes ldio-h7qmz13llzu {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.ldio-h7qmz13llzu div {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 5px solid #ffffff;
+  border-top-color: transparent;
+  border-radius: 50%;
+}
+.ldio-h7qmz13llzu div.course {
+  border-color: var(--main-color);
+  border-bottom: none;
+}
+.ldio-h7qmz13llzu div {
+  animation: ldio-h7qmz13llzu 1s linear infinite;
+  top: 50px;
+  left: 50px;
+}
+.loadingio-spinner-rolling-fvxxpi27vlr {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  overflow: hidden;
+  background: none;
+}
+.ldio-h7qmz13llzu {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(0.5);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+}
+.ldio-h7qmz13llzu div {
+  box-sizing: content-box;
 }

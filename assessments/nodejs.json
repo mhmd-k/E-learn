@@ -1,0 +1,97 @@
+[
+  {
+    "title": "What is Node.js?",
+    "answers": [
+      "A client-side JavaScript library",
+      "A database management system",
+      "A server-side JavaScript runtime environment",
+      "A programming language"
+    ],
+    "right_answer": "A server-side JavaScript runtime environment"
+  },
+  {
+    "title": "What is the package manager used in Node.js?",
+    "answers": ["pip", "npm", "yarn", "apt-get"],
+    "right_answer": "npm"
+  },
+  {
+    "title": "What is the purpose of the Node.js 'fs' module?",
+    "answers": [
+      "To perform file system operations",
+      "To create HTTP servers",
+      "To handle routing",
+      "To handle database queries"
+    ],
+    "right_answer": "To perform file system operations"
+  },
+  {
+    "title": "What is a callback function in Node.js?",
+    "answers": [
+      "A function that is passed as an argument to another function and is executed when a certain event occurs",
+      "A function that is executed immediately when it is called",
+      "A function that is used to create a new instance of an object",
+      "A function that is used to handle errors"
+    ],
+    "right_answer": "A function that is passed as an argument to another function and is executed when a certain event occurs"
+  },
+  {
+    "title": "What is 'require' in Node.js?",
+    "answers": [
+      "A function used to import modules",
+      "A function used to create new objects",
+      "A function used to handle errors",
+      "A function used to create HTTP servers"
+    ],
+    "right_answer": "A function used to import modules"
+  },
+  {
+    "title": "What is the purpose of the Node.js 'http' module?",
+    "answers": [
+      "To create HTTP servers and make HTTP requests",
+      "To perform file system operations",
+      "To handle database queries",
+      "To handle routing"
+    ],
+    "right_answer": "To create HTTP servers and make HTTP requests"
+  },
+  {
+    "title": "What is the purpose of the 'path' module in Node.js?",
+    "answers": [
+      "To create HTTP servers and make HTTP requests",
+      "To handle database queries",
+      "To handle and manipulate file paths",
+      "To handle routing"
+    ],
+    "right_answer": "To handle and manipulate file paths"
+  },
+  {
+    "title": "What is the purpose of the Node.js 'events' module?",
+    "answers": [
+      "To create HTTP servers and make HTTP requests",
+      "To handle database queries",
+      "To handle routing",
+      "To handle events"
+    ],
+    "right_answer": "To handle events"
+  },
+  {
+    "title": "What is the purpose of the 'os' module in Node.js?",
+    "answers": [
+      "To create HTTP servers and make HTTP requests",
+      "To handle database queries",
+      "To handle routing",
+      "To provide information about the operating system"
+    ],
+    "right_answer": "To provide information about the operating system"
+  },
+  {
+    "title": "What is the purpose of the 'stream' module in Node.js?",
+    "answers": [
+      "To handle streaming data",
+      "To create HTTP servers and make HTTP requests",
+      "To handle database queries",
+      "To handle routing"
+    ],
+    "right_answer": "To handle streaming data"
+  }
+]

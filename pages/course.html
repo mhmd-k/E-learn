@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="../css/courses.css" />
+    <link rel="stylesheet" href="../css/course.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -24,32 +24,56 @@
   <body>
     <header>
       <div class="container">
+        <button id="aside">
+          Course Info <i class="fa-solid fa-chevron-right fa-lg"></i>
+        </button>
         <a href="../index.html" class="logo">E-Learn</a>
         <ul>
           <li><a href="../index.html">Home</a></li>
-          <li><a href="#">Courses</a></li>
+          <li><a href="./courses.html">Courses</a></li>
           <li><a href="./about.html">About Us</a></li>
           <li><a href="./contact.html">Contact</a></li>
         </ul>
         <div class="btns">
-          <a class="header-btn" href="./log-in.html">
-            <i class="fa-solid fa-user fa-lg"></i></a
-          ><a class="header-btn" href="./sign-up.html">Sign up</a>
+          <a class="header-btn" href="./profile.html">
+            <i class="fa-solid fa-user fa-lg"></i
+          ></a>
         </div>
         <button id="menu"><i class="fa-solid fa-bars fa-2xl"></i></button>
         <ul class="mobile">
           <li><a href="../index.html">Home</a></li>
-          <li><a href="#">Courses</a></li>
+          <li><a href="./courses.html">Courses</a></li>
           <li><a href="./about.html">About Us</a></li>
           <li><a href="./contact.html">Contact</a></li>
           <li class="mobile">
-            <a href="./log-in.html">Log in</a
-            ><a href="./sign-up.html">Sign up</a>
+            <a class="header-btn" href="./profile.html">
+              <i class="fa-solid fa-user fa-lg"></i
+            ></a>
           </li>
         </ul>
       </div>
     </header>
-    <main></main>
+    <main>
+      <aside>
+        <ul>
+          <li class="active leason">
+            <i class="fa-solid fa-circle-play fa-lg"></i> Course Intro
+          </li>
+          <li class="leason">
+            <i class="fa-solid fa-circle-play fa-lg"></i> Leason-1
+          </li>
+          <li class="leason">
+            <i class="fa-solid fa-circle-play fa-lg"></i> Leason-2
+          </li>
+          <li class="leason">
+            <i class="fa-solid fa-circle-play fa-lg"></i> Leason-3
+          </li>
+          <li id="project"><i class="fa-solid fa-folder fa-lg"></i> project</li>
+          <li id="test"><i class="fa-solid fa-book fa-lg"></i> Test</li>
+        </ul>
+      </aside>
+      <div class="content"></div>
+    </main>
     <footer>
       Built By
       <a href="https://mhmd-k.github.io/portfolio/" target="_blank"

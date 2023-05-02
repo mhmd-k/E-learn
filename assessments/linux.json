@@ -1,0 +1,52 @@
+[
+  {
+    "title": "What command is used to list the files and directories in a directory?",
+    "answers": ["ls", "cd", "pwd", "dir"],
+    "right_answer": "ls"
+  },
+  {
+    "title": "What command is used to create a new directory?",
+    "answers": ["touch", "mkdir", "rm", "rmdir"],
+    "right_answer": "mkdir"
+  },
+  {
+    "title": "What command is used to change the current working directory?",
+    "answers": ["ls", "pwd", "dir", "cd"],
+    "right_answer": "cd"
+  },
+  {
+    "title": "What command is used to delete a file?",
+    "answers": ["mv", "rm", "cp", "ls"],
+    "right_answer": "rm"
+  },
+  {
+    "title": "What command is used to display the content of a file?",
+    "answers": ["cat", "ls", "pwd", "cd"],
+    "right_answer": "cat"
+  },
+  {
+    "title": "What command is used to copy a file?",
+    "answers": ["cp", "mv", "rm", "ls"],
+    "right_answer": "cp"
+  },
+  {
+    "title": "What command is used to move a file or directory?",
+    "answers": ["mv", "cp", "rm", "ls"],
+    "right_answer": "mv"
+  },
+  {
+    "title": "What command is used to display the manual page for a command?",
+    "answers": ["man", "help", "info", "doc"],
+    "right_answer": "man"
+  },
+  {
+    "title": "What command is used to search for a string in a file?",
+    "answers": ["sed", "awk", "grep", "find"],
+    "right_answer": "grep"
+  },
+  {
+    "title": "What command is used to compress a file?",
+    "answers": ["tar", "gzip", "zip", "unzip"],
+    "right_answer": "gzip"
+  }
+]

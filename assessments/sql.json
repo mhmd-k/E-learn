@@ -1,0 +1,102 @@
+[
+  {
+    "title": "What is Java?",
+    "answers": [
+      "A programming language",
+      "An operating system",
+      "A database management system",
+      "A hardware device"
+    ],
+    "right_answer": "A programming language"
+  },
+  {
+    "title": "What is the difference between JDK and JRE?",
+    "answers": [
+      "JDK includes JRE and development tools, while JRE only includes the Java Runtime Environment",
+      "JDK is used for running Java applications, while JRE is used for developing Java applications",
+      "JDK is used for developing Java applications, while JRE is used for running Java applications",
+      "There is no difference between JDK and JRE"
+    ],
+    "right_answer": "JDK includes JRE and development tools, while JRE only includes the Java Runtime Environment"
+  },
+  {
+    "title": "What is an object in Java?",
+    "answers": [
+      "An instance of a class",
+      "A variable",
+      "A keyword",
+      "A data type"
+    ],
+    "right_answer": "An instance of a class"
+  },
+  {
+    "title": "What is inheritance in Java?",
+    "answers": [
+      "The ability of a class to inherit properties and methods from another class",
+      "The ability of a class to hide properties and methods from other classes",
+      "The ability of a class to create instances of other classes",
+      "The ability of a class to modify the behavior of other classes"
+    ],
+    "right_answer": "The ability of a class to inherit properties and methods from another class"
+  },
+  {
+    "title": "What is a constructor in Java?",
+    "answers": [
+      "A special method that is used to create and initialize objects",
+      "A method that is used to destroy objects",
+      "A method that is used to access objects",
+      "A method that is used to modify objects"
+    ],
+    "right_answer": "A special method that is used to create and initialize objects"
+  },
+  {
+    "title": "What is polymorphism in Java?",
+    "answers": [
+      "The ability of a method to take many forms",
+      "The ability of a class to inherit properties and methods from another class",
+      "The ability of a class to hide properties and methods from other classes",
+      "The ability of a class to modify the behavior of other classes"
+    ],
+    "right_answer": "The ability of a method to take many forms"
+  },
+  {
+    "title": "What is an interface in Java?",
+    "answers": [
+      "A collection of abstract methods and constants",
+      "A collection of concrete methods and variables",
+      "A collection of static methods and constants",
+      "A collection of final methods and variables"
+    ],
+    "right_answer": "A collection of abstract methods and constants"
+  },
+  {
+    "title": "What is a package in Java?",
+    "answers": [
+      "A collection of related classes and interfaces",
+      "A collection of related methods and variables",
+      "A collection of related objects",
+      "A collection of related data types"
+    ],
+    "right_answer": "A collection of related classes and interfaces"
+  },
+  {
+    "title": "What is a thread in Java?",
+    "answers": [
+      "A lightweight process that runs concurrently with other threads",
+      "A data type",
+      "A method",
+      "A variable"
+    ],
+    "right_answer": "A lightweight process that runs concurrently with other threads"
+  },
+  {
+    "title": "What is exception handling in Java?",
+    "answers": [
+      "The process of handling runtime errors gracefully",
+      "The process of preventing runtime errors from occurring",
+      "The process of debugging Java code",
+      "The process of optimizing Java code"
+    ],
+    "right_answer": "The process of handling runtime errors gracefully"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "title": "What is React?",
+    "answers": [
+      "A JavaScript library for building user interfaces",
+      "A programming language",
+      "A database management system",
+      "An operating system"
+    ],
+    "right_answer": "A JavaScript library for building user interfaces"
+  },
+  {
+    "title": "What is JSX in React?",
+    "answers": [
+      "A syntax extension for JavaScript",
+      "A separate templating language",
+      "A CSS preprocessor",
+      "A new programming language"
+    ],
+    "right_answer": "A syntax extension for JavaScript"
+  },
+  {
+    "title": "What is a component in React?",
+    "answers": [
+      "A reusable piece of UI that can be composed with other components to form an application",
+      "A JavaScript function",
+      "A CSS class",
+      "An HTML element"
+    ],
+    "right_answer": "A reusable piece of UI that can be composed with other components to form an application"
+  },
+  {
+    "title": "What is state in React?",
+    "answers": [
+      "A function that is used to update a component's UI",
+      "A way to define the layout of a component",
+      "An object that holds the data that defines a component's behavior",
+      "A way to define the styling of a component"
+    ],
+    "right_answer": "An object that holds the data that defines a component's behavior"
+  },
+  {
+    "title": "What is props in React?",
+    "answers": [
+      "Short for properties, it is a way to pass data from a parent component to a child component",
+      "A way to define the layout of a component",
+      "A way to define the styling of a component",
+      "A function that is used to update a component's UI"
+    ],
+    "right_answer": "Short for properties, it is a way to pass data from a parent component to a child component"
+  },
+  {
+    "title": "What is the virtual DOM in React?",
+    "answers": [
+      "A lightweight representation of the actual DOM used for performance optimization",
+      "A new version of the DOM with additional features",
+      "A way to add styles to the DOM",
+      "A way to define the structure of the DOM"
+    ],
+    "right_answer": "A lightweight representation of the actual DOM used for performance optimization"
+  },
+  {
+    "title": "What is the React lifecycle?",
+    "answers": [
+      "A way to manage the state of a component",
+      "A way to manage the props of a component",
+      "A way to manage the rendering of a component",
+      "A series of methods that are called at different stages of a component's existence"
+    ],
+    "right_answer": "A series of methods that are called at different stages of a component's existence"
+  },
+  {
+    "title": "What is the difference between a controlled and an uncontrolled component in React?",
+    "answers": [
+      "A controlled component is one where the value of the input is controlled by React, while an uncontrolled component is one where the value is controlled by the DOM",
+      "A controlled component is one that has a state, while an uncontrolled component is one that does not have a state",
+      "A controlled component is one that is managed by a parent component, while an uncontrolled component is one that is managed by itself",
+      "A controlled component is one that is used with Redux, while an uncontrolled component is one that is not used with Redux"
+    ],
+    "right_answer": "A controlled component is one where the value of the input is controlled by React, while an uncontrolled component is one where the value is controlled by the DOM"
+  },
+  {
+    "title": "What is Redux in React?",
+    "answers": [
+      "A new version of React with additional features",
+      "A way to define the structure of a component",
+      "A predictable state container for JavaScript applications",
+      "A way to manage the rendering of a component"
+    ],
+    "right_answer": "A predictable state container for JavaScript applications"
+  },
+  {
+    "title": "What is React Router?",
+    "answers": [
+      "A way to manage the state of a component",
+      "A library for handling routing in React applications",
+      "A way to manage the props of a component",
+      "A way to manage the rendering of a component"
+    ],
+    "right_answer": "A library for handling routing in React applications"
+  }
+]
