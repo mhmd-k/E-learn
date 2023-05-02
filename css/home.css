@@ -20,17 +20,22 @@ body {
   color: white;
 }
 main {
-  padding-top: 120px;
+  padding-top: 100px;
 }
 .text {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 50px;
+  grid-template-columns: repeat(5, 1fr);
   padding: 50px 0;
 }
 .text h1 {
-  font-size: 45px;
+  font-size: 50px;
+  font-weight: 500;
   margin: 0;
+  grid-column: span 2;
+}
+.text .start {
+  grid-column: span 3;
+  padding-left: 30px;
 }
 .text p {
   font-size: 22px;
@@ -60,6 +65,7 @@ section.info {
 section.info h2 {
   font-size: 40px;
   text-align: center;
+  grid-column: span 2;
 }
 .row {
   display: grid;
@@ -97,6 +103,14 @@ section.info h2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
+  background-color: var(--bg-color);
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 .course .image {
   width: 100%;
@@ -108,6 +122,10 @@ section.info h2 {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+.course a {
+  background-color: #000000;
+  color: white;
 }
 @media (max-width: 767px) {
   .text {
@@ -121,6 +139,7 @@ section.info h2 {
     align-items: center;
     flex-direction: column;
     text-align: center;
+    padding: 0;
   }
   .text:last-child {
     padding: 0;
@@ -140,5 +159,14 @@ section.info h2 {
     align-items: center;
     flex-direction: column;
     text-align: center;
+  }
+  .course {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .course div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 }

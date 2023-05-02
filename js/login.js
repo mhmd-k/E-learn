@@ -9,6 +9,7 @@ const user = {
   email: "student@mail.com",
   pass: "student",
   username: "Mohammad_k",
+  notes: [],
 };
 
 form.addEventListener("submit", (e) => {

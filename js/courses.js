@@ -84,8 +84,6 @@ const links = document.querySelectorAll("a.box");
 
 //if the user is loged in
 
-const user = JSON.parse(localStorage.getItem("user")) || null;
-
 if (user) {
   document.querySelector("header .btns").innerHTML = `
     <a class="header-btn" href="./profile.html">

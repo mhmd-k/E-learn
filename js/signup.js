@@ -112,6 +112,7 @@ function handleSubmit() {
         username: username.value,
         email: email.value,
         pass: password.value,
+        notes: [],
       })
     );
     location.href = "/index.html";

@@ -1,7 +1,7 @@
 const startSection = document.querySelector("section.start");
 const quizSection = document.querySelector("section.quiz");
 const endGameSection = document.querySelector("section.end");
-const nextBtn = document.getElementById("submit");
+const nextBtn = document.querySelector(".quiz #submit");
 const startBtn = document.getElementById("start");
 const restartBtn = document.getElementById("restart");
 

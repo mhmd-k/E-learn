@@ -1,18 +1,6 @@
 const user = JSON.parse(localStorage.getItem("user")) || null;
 
 if (user) {
-  document.querySelector("header .btns").innerHTML = `
-    <a class="header-btn" href="#">
-        <i class="fa-solid fa-user fa-lg"></i>
-    </a>`;
-  document.querySelector(
-    "li.mobile"
-  ).innerHTML = `<a class="header-btn" href="#">
-            <i class="fa-solid fa-user fa-lg"></i
-          ></a>`;
-  document.querySelectorAll(".landing-btn").forEach((e) => {
-    e.innerHTML = "Continue learning";
-  });
   document.querySelector("main .container").innerHTML = `
       <div class="col">
           <div class="image">
@@ -112,7 +100,7 @@ usernameEditBtn.addEventListener("click", () => {
     );
   } else {
     if (input.value.length < 4) {
-      alert("username can't be empty");
+      alert("username must be at least 4 characters");
       return;
     }
     emailReadOnly = true;

@@ -1,3 +1,17 @@
+const menuBtn = document.querySelector("#menu");
+const menu = document.querySelector("ul.mobile");
+
+let showMenu = false;
+menuBtn.addEventListener("click", () => {
+  if (showMenu) {
+    menu.style.display = "none";
+    showMenu = false;
+  } else {
+    menu.style.display = "flex";
+    showMenu = true;
+  }
+});
+
 const courses = [
   {
     id: 1,
@@ -117,6 +131,8 @@ mainContainer.innerHTML = `
     dicta iure
   </p>
 `;
+
+document.title = course.title;
 
 leasonBtns.forEach((e, i) => {
   e.addEventListener("click", () => {
