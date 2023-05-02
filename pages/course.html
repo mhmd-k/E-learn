@@ -54,6 +54,23 @@
       </div>
     </header>
     <main>
+      <div class="notes-form d-none">
+        <div class="input">
+          <span class="close"
+            ><i class="fa-solid fa-rectangle-xmark fa-xl"></i
+          ></span>
+          <input type="text" name="title" id="" placeholder="Note Title" />
+          <textarea
+            name="description"
+            id=""
+            placeholder="Note Description"
+          ></textarea>
+          <button id="submit">ADD</button>
+        </div>
+      </div>
+      <button class="add-note">
+        <i class="fa-solid fa-notes-medical fa-xl"></i>
+      </button>
       <aside>
         <ul>
           <li class="active leason">
@@ -81,6 +98,7 @@
       >
     </footer>
     <script src="../js/main.js"></script>
+    <script src="../js/notes.js"></script>
     <script src="../js/course.js"></script>
   </body>
 </html>
