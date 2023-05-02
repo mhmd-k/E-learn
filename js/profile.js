@@ -61,12 +61,12 @@ if (user) {
 const courses = [
   {
     id: 1,
-    image: "/images/html.png",
+    image: "../images/html.png",
     title: "HTML5 crash course",
   },
   {
     id: 2,
-    image: "/images/java.jpg",
+    image: "../images/java.jpg",
     title: "Java Programming and Software Engineering Fundamentals",
   },
 ];

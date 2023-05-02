@@ -20,7 +20,7 @@ if (user) {
     <p style="line-height: 25px;"> Jump back in:</p>
     <div class="course">
       <div class="image">
-        <img src="../images/java.jpg" alt="course image"/>
+        <img src="./images/java.jpg" alt="course image"/>
       </div>
       <div>
         <p style="text-align: start; margin: 0; line-height: 25px;">Multi Threading in java, intro</p>
