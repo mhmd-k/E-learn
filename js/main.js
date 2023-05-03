@@ -15,6 +15,12 @@ menuBtn.addEventListener("click", () => {
 });
 
 if (user) {
+  document
+    .querySelectorAll(".header-btn")[0]
+    .setAttribute("href", "./profile.html");
+  document
+    .querySelectorAll("li.mobile a")[0]
+    .setAttribute("href", "./profile.html");
   document.querySelectorAll(".header-btn")[1].remove();
   document.querySelectorAll(
     "li.mobile a"

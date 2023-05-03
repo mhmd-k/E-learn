@@ -47,6 +47,12 @@ const CourseId = parseInt(localStorage.getItem("course")) || null;
 const course = courses[CourseId - 1];
 
 if (user) {
+  document
+    .querySelectorAll(".header-btn")[0]
+    .setAttribute("href", "./pages/profile.html");
+  document
+    .querySelectorAll("li.mobile a")[0]
+    .setAttribute("href", "./pages/profile.html");
   document.querySelector("section.info").remove();
   document.querySelector(
     "main .container .text h1"
