@@ -57,6 +57,9 @@ if (user) {
   document.querySelector(
     "main .container .text h1"
   ).innerText = `Welcome back ${user.username}`;
+  document
+    .querySelector(".landing-btn")
+    .setAttribute("href", "./pages/courses.html");
   // if the user have started a course
   if (CourseId) {
     document.querySelector("main .container .text").innerHTML = `
