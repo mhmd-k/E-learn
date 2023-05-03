@@ -85,14 +85,30 @@ const links = document.querySelectorAll("a.box");
 //if the user is loged in
 
 if (user) {
-  document.querySelector("header .btns").innerHTML = `
-    <a class="header-btn" href="./profile.html">
-        <i class="fa-solid fa-user fa-lg"></i>
-    </a>`;
-  document.querySelector("li.mobile").innerHTML = `
-    <a class="header-btn" href=".profile.html">
-        <i class="fa-solid fa-user fa-lg"></i
-    ></a>`;
+  document.querySelector("header .container").innerHTML = `
+        <a href="../index.html" class="logo">E-Learn</a>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./courses.html">Courses</a></li>
+          <li><a href="./notes.html">Notes</a></li>
+        </ul>
+        <div class="btns">
+          <a class="header-btn" href="./profile.html">
+            <i class="fa-solid fa-user fa-lg"></i
+          ></a>
+        </div>
+        <button id="menu"><i class="fa-solid fa-bars fa-2xl"></i></button>
+        <ul class="mobile">
+          <li><a href="#">Home</a></li>
+          <li><a href="./courses.html">Courses</a></li>
+          <li><a href="./notes.html">Notes</a></li>
+          <li class="mobile">
+            <a class="header-btn" href="./profile.html">
+              <i class="fa-solid fa-user fa-lg"></i
+            ></a>
+          </li>
+        </ul>
+  `;
   links.forEach((link) => {
     link.addEventListener("click", (e) => {
       e.preventDefault();

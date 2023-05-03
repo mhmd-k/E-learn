@@ -47,6 +47,30 @@ const CourseId = parseInt(localStorage.getItem("course")) || null;
 const course = courses[CourseId - 1];
 
 if (user) {
+  document.querySelector("header .container").innerHTML = `
+        <a href="#" class="logo">E-Learn</a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="./pages/courses.html">Courses</a></li>
+          <li><a href="./pages/notes.html">Notes</a></li>
+        </ul>
+        <div class="btns">
+          <a class="header-btn" href="./pages/profile.html">
+            <i class="fa-solid fa-user fa-lg"></i
+          ></a>
+        </div>
+        <button id="menu"><i class="fa-solid fa-bars fa-2xl"></i></button>
+        <ul class="mobile">
+          <li><a href="#">Home</a></li>
+          <li><a href="./pages/courses.html">Courses</a></li>
+          <li><a href="./pages/notes.html">Notes</a></li>
+          <li class="mobile">
+            <a class="header-btn" href="./pages/profile.html">
+              <i class="fa-solid fa-user fa-lg"></i
+            ></a>
+          </li>
+        </ul>
+  `;
   document.querySelectorAll(".landing-btn").forEach((e) => {
     e.innerHTML = "Continue learning";
     e.href = "../pages/courses.html";
