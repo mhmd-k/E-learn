@@ -115,7 +115,7 @@ function handleSubmit() {
         notes: [],
       })
     );
-    location.href = "../index.html";
+    console.log(location.pathname, location.href);
   }, 2000);
 }
 
