@@ -115,7 +115,7 @@ function handleSubmit() {
         notes: [],
       })
     );
-    location.pathname = "/E-learn/index.html";
+    location.pathname = "/E-learn/pages/courses.html";
   }, 2000);
 }
 
