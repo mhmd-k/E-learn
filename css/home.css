@@ -162,6 +162,7 @@ section.info h2 {
   }
   .course {
     grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 30px;
   }
   .course div {
     display: flex;
