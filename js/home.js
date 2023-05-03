@@ -52,6 +52,8 @@ if (user) {
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="./pages/courses.html">Courses</a></li>
+          <li><a href="./pages/about.html">About Us</a></li>
+          <li><a href="./pages/contact.html">Contact</a></li>
           <li><a href="./pages/notes.html">Notes</a></li>
         </ul>
         <div class="btns">
@@ -63,6 +65,8 @@ if (user) {
         <ul class="mobile">
           <li><a href="#">Home</a></li>
           <li><a href="./pages/courses.html">Courses</a></li>
+          <li><a href="./pages/about.html">About Us</a></li>
+          <li><a href="./pages/contact.html">Contact</a></li>
           <li><a href="./pages/notes.html">Notes</a></li>
           <li class="mobile">
             <a class="header-btn" href="./pages/profile.html">

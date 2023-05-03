@@ -90,6 +90,8 @@ if (user) {
         <ul>
           <li><a href="../index.html">Home</a></li>
           <li><a href="./courses.html">Courses</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="./contact.html">Contact</a></li>
           <li><a href="./notes.html">Notes</a></li>
         </ul>
         <div class="btns">
@@ -101,6 +103,8 @@ if (user) {
         <ul class="mobile">
           <li><a href="#">Home</a></li>
           <li><a href="./courses.html">Courses</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="./contact.html">Contact</a></li>
           <li><a href="./notes.html">Notes</a></li>
           <li class="mobile">
             <a class="header-btn" href="./profile.html">
