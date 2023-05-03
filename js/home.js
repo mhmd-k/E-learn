@@ -71,10 +71,6 @@ if (user) {
           </li>
         </ul>
   `;
-  document.querySelectorAll(".landing-btn").forEach((e) => {
-    e.innerHTML = "Continue learning";
-    e.href = "../pages/courses.html";
-  });
   document.querySelector("section.info").remove();
   document.querySelector(
     "main .container .text h1"
@@ -91,7 +87,7 @@ if (user) {
           </div>
           <div>
             <p style="text-align: start; margin: 0; line-height: 25px;">${course.title}</p>
-            <a href="../pages/courses.html" class="landing-btn">Continue</a>
+            <a href="./pages/courses.html" class="landing-btn">Continue</a>
           </div>
         </div>
       </div>
