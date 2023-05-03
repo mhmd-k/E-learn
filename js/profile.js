@@ -1,3 +1,17 @@
+const menuBtn = document.querySelector("header .container #menu");
+const menu = document.querySelector("ul.mobile");
+
+let showMenu = false;
+menuBtn.addEventListener("click", () => {
+  if (showMenu) {
+    menu.style.display = "none";
+    showMenu = false;
+  } else {
+    menu.style.display = "flex";
+    showMenu = true;
+  }
+});
+
 const user = JSON.parse(localStorage.getItem("user")) || null;
 
 if (user) {

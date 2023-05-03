@@ -4,7 +4,6 @@ const menu = document.querySelector("ul.mobile");
 
 let showMenu = false;
 menuBtn.addEventListener("click", () => {
-  console.log("s");
   if (showMenu) {
     menu.style.display = "none";
     showMenu = false;
